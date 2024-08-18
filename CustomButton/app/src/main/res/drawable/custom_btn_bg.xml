@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#8BC34A"/>
+<!--            <stroke android:color="#01056A"-->
+<!--                android:width="2dp"-->
+<!--                android:dashWidth="7dp"-->
+<!--                android:dashGap="2dp"/>-->
+<!--            <corners android:radius="34dp"/>-->
+<!--            <corners android:topRightRadius="21dp"-->
+<!--                android:bottomLeftRadius="21dp"/>-->
+<!--            <size android:width="50dp"-->
+<!--                android:height="50dp"/>-->
+            <gradient android:startColor="#FB0505"
+                android:centerColor="#F26D63"
+                android:endColor="#F6B0AB"
+                android:angle="270"
+                android:type="radial"
+                android:gradientRadius="100dp"
+                android:centerX="1"
+                android:centerY="0"/>
+<!--            Weather app-->
+
+        </shape>
+    </item>
+
+
+</selector>
